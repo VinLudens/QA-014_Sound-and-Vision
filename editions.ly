@@ -7,9 +7,6 @@
 \addEdition fingering
 \addEdition dynamics
 
-\editionMod dynamics 1 0/8 music.Dynamics -"Editions"
-\editionMod tweaks 1 0/8 music.Voice.A -"Editions"
-
 \editionMod dynamics 2 0/4 music.Dynamics \p
 
 \editionMod dynamics 9 0/4 music.Dynamics \sf
