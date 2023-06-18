@@ -15,6 +15,6 @@ dynamics = {
   % allow text in the dynamics block to be centered vertically
   % \override TextScript.extra-offset = #'(0 . 1)
 
-  s
+  s1*53 |
 
 }
