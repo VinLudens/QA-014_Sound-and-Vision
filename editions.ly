@@ -17,6 +17,7 @@
 \editionMod articulations 9 0/4 music.Voice.A \(
 
 \editionMod dynamics 10 0/4 music.Dynamics \mp
+\editionMod tweaks 10 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 
 \editionMod articulations 12 0/4 music.Voice.A \)
 \editionMod articulations 12 3/4 music.Voice.A \(
@@ -25,6 +26,7 @@
 
 \editionMod dynamics 15 0/4 music.Dynamics \sf
 \editionMod articulations 15 0/4 music.Voice.A \(
+\editionMod tweaks 15 0/4 music.Voice.A \once\alterBroken positions #'(() (0 . 2.5)) PhrasingSlur
 
 \editionMod dynamics 16 0/4 music.Dynamics \mp
 \editionMod tweaks 16 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.5
@@ -35,6 +37,7 @@
 \editionMod articulations 19 0/4 music.Voice.A \)
 
 \editionMod dynamics 21 0/4 music.Dynamics \mf
+\editionMod tweaks 21 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.4
 \editionMod articulations 21 0/4 music.Voice.A \(
 \editionMod articulations 21 3/4 music.Voice.A \)
 
@@ -45,6 +48,8 @@
 \editionMod dynamics 25 0/4 music.Dynamics \mf
 \editionMod articulations 25 0/4 music.Voice.A \(
 \editionMod articulations 25 3/4 music.Voice.A \)
+\editionMod tweaks 25 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.3
+\editionMod tweaks 25 0/4 music.Dynamics \once\override DynamicText.Y-offset = #-3.3
 
 \editionMod articulations 26 0/4 music.Voice.A \(
 
@@ -86,17 +91,20 @@
 \editionMod articulations 34 0/4 music.Voice.A )
 
 \editionMod articulations 36 0/4 music.Voice.A \(
+\editionMod tweaks 36 0/4 music.Voice.A \once\alterBroken positions #'((0 . 3) ()) PhrasingSlur
 
 \editionMod dynamics 36 0/4 music.Dynamics \p
 
 \editionMod articulations 40 0/4 music.Voice.A \)
 
 \editionMod articulations 42 0/4 music.Voice.A \(
+\editionMod tweaks 42 0/4 music.Voice.A \once\alterBroken positions #'((0 . 3.5) ()) PhrasingSlur
 
 \editionMod articulations 46 0/4 music.Voice.A \)
 
 \editionMod dynamics 48 0/4 music.Dynamics \p
 \editionMod dynamics 48 0/4 music.Voice.A \(
+\editionMod tweaks 48 0/4 music.Voice.A \once\override PhrasingSlur.positions = #'(4.0 . 1.5)
 
 \editionMod dynamics 50 0/4 music.Voice.A \)
 
