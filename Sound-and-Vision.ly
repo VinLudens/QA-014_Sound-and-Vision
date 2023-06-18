@@ -13,7 +13,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
   } }
 }
 
-%#(set-global-staff-size 20)
+#(set-global-staff-size 17.1)
 %showLastLength = R1 * 10
 
 \paper {
@@ -49,6 +49,7 @@ date = #(strftime "%B %d %Y" (localtime (current-time)))
     \context {
       \Score
       \editionID ##f music
+      \override SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/4)
     }
   }
   \midi {
