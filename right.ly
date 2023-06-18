@@ -5,7 +5,7 @@ right = \absolute {
   \global
   \tempo "Allegretto" 4 = 114
 
-  g'''8 fis''' e''' d''' c''' b'' a'' g'' |
+  \ottava 1 g'''8 fis''' e''' d''' c''' b'' a'' g'' \ottava 0 |
   r1 |
   b'1 |
   r2 r8 b''8 a'' g'' |
@@ -13,7 +13,7 @@ right = \absolute {
   <e'' a''>8. <e'' b''>16 ~ 8 <e'' a''> ~ 8 g'' e'' g'' |
   <e'' a''>8. <e'' b''>16 ~ 8 <e'' a''> ~ 8 g'' e'' <c'' b''> |
   <b' d'' g''>1 |
-  \acciaccatura fis'''8 b'''1 |
+  \ottava 1 \acciaccatura fis'''8 b'''1 | \ottava 0
   
   <g'' b'' d''' g'''>4 <fis'' b'' d''' fis'''> <e'' b'' e'''>8 <fis'' fis'''> <d'' d'''>4 |
   c''8 d'' b'4 a'8 b' g'4 |
@@ -29,13 +29,13 @@ right = \absolute {
   q2 r4 <g' c'' e''> |
   
   <g' b' d''>1 |
-  \clef "bass" g,,1 | \clef "treble"
+  \clef "bass" \ottava -1 g,,1 \ottava 0 | \clef "treble"
 
 
   a'4 a'8. a'16 ~ 8 g' g'4 |
   c''8 c'' c''8. c''16 ~ 8 b' a' g' |
   a'16 b'8. ~ 2 r4 |
-  \clef "bass" g,,1 | \clef "treble"
+  \clef "bass" \ottava -1 g,,1 \ottava 0 | \clef "treble"
 
   <c' e' a'>4 <c' e' a'>8. <c' e' a'>16 ~ 8 <c' e' g'> <c' e' g'>4 |
   <e' g' c''>8 <e' g' c''> <e' g' c''>8. <e' g' c''>16 ~ 8 b' a' g' |
@@ -67,9 +67,9 @@ right = \absolute {
   <b' d'' g''>1 |
   <fis' b'>1 |
 
-  g'''4 fis'''4 \appoggiatura { g'''16 fis''' } e'''8 fis''' d'''4 |
+  \ottava 1 g'''4 fis'''4 \appoggiatura { g'''16 fis''' } e'''8 fis''' d'''4 |
   c'''8 d''' b''4 \appoggiatura { a''16 b'' } a''8 b''8 g''4 |
-  a''1 |
+  a''1 \ottava 0 |
   r2 b'' |
   
   <b' d'' g''>1 |

@@ -42,7 +42,7 @@ left = \absolute {
   g,8 d g d' c' a c' fis' |
   b8 g b g' r2 | 
   
-  a,8 c e a c' e' a' c'' |
+  a,8 c e a \clef "treble" c' e' a' c'' |
   r2 \clef "treble" fis'8. g'16 ~ 8 a'8 |
   b'4 g8 a b c' d' e' ~ |
   8 fis'16 e'16 d'2 r4 |
