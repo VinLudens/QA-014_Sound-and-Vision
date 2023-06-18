@@ -3,6 +3,8 @@
 \consistToContexts #edition-engraver Score.PianoStaff.Staff.Voice
 \consistToContexts #edition-engraver Score.PianoStaff.Dynamics
 
+mintielen = #2.5
+
 \addEdition tweaks
 \addEdition fingering
 \addEdition dynamics
@@ -18,6 +20,8 @@
 
 \editionMod dynamics 10 0/4 music.Dynamics \mp
 \editionMod tweaks 10 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.4
+
+\editionMod tweaks 11 3/8 music.Voice.A \once\override Tie.minimum-length = \mintielen
 
 \editionMod articulations 12 0/4 music.Voice.A \)
 \editionMod articulations 12 3/4 music.Voice.A \(
@@ -50,8 +54,10 @@
 \editionMod articulations 25 3/4 music.Voice.A \)
 \editionMod tweaks 25 0/4 music.Dynamics \once\override DynamicText.X-offset = #-0.3
 \editionMod tweaks 25 0/4 music.Dynamics \once\override DynamicText.Y-offset = #-3.3
+\editionMod tweaks 25 7/16 music.Voice.A \once\override Tie.minimum-length = \mintielen
 
 \editionMod articulations 26 0/4 music.Voice.A \(
+\editionMod tweaks 26 7/16 music.Voice.A \once\override Tie.minimum-length = \mintielen
 
 \editionMod fingering 27 2/8 music.Voice.B -1
 \editionMod fingering 27 3/8 music.Voice.B -2
