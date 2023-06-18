@@ -57,7 +57,7 @@ right = \absolute {
   a'8. b'16 ~ 8 a' ~ 8 g' e' g' |
   a'8. b'16 ~ 8 a' ~ 8 g' c'' b' |
   <b d' g'>1 |
-  \appoggiatura fis''8 b''1 |
+  \acciaccatura fis''8 b''1 |
 
   g''4 fis''4 \appoggiatura { g''16 fis'' } e''8 fis'' d''4 |
   c''8 d'' b'4 \appoggiatura { a'16 b' } a'8 b'8 g'4 |
