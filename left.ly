@@ -39,13 +39,13 @@ left = \absolute {
   
   a,8) e \repeat unfold 3 { a,8 e } |
   \repeat unfold 4 { c8 g } |
-  g,8 d g-1 d'-2 c'-3 a-5 c' fis' |
-  b8-3 g-5 b g' r2 | 
+  g,8 d g d' c' a c' fis' |
+  b8 g b g' r2 | 
   
   a,8 c e a c' e' a' c'' |
   r2 \clef "treble" fis'8. g'16 ~ 8 a'8 |
   b'4 g8 a b c' d' e' ~ |
-  8 fis'16-2 e'16-3 d'2-4 r4 |
+  8 fis'16 e'16 d'2 r4 |
   r1 |
   
   
